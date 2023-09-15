@@ -15,6 +15,6 @@ func LoadStatic(app *echo.Echo) {
 	staticFolder := fmt.Sprintf("%v/repository/assets", filepath)
 	// load static path.. utilities to make our profile to look goo
 	// they nomarlly doeas mot change
-	app.Static("static", "staticFolder")
+	app.Static("static", staticFolder)
 
 }
